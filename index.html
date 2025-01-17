@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to JPEG Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image to JPEG Converter</h1>
+        <div class="drop-area" id="dropArea">
+            <p>Drag & Drop Images Here or</p>
+            <button id="selectImageBtn">Select Images</button>
+            <input type="file" id="imageInput" accept="image/*" multiple hidden>
+        </div>
+        <button id="addImageBtn" class="hidden">Add More Images</button>
+        <div class="preview-area" id="previewArea"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
